@@ -4,7 +4,7 @@ The ultimate reference for copy and paste commands. I've been wanting to do this
 
 ## This is really for me, but it could also be for you.
 
-This guide is supposed to be made up of copy and paste template for CLI's. If you'd like to be a contributer to this, please pull & merge or drope me a line.
+This guide is supposed to be made up of copy and paste template for CLI's. If you'd like to be a contributer to this, please pull & merge or drop me a line.
 
 ## Directory
 
