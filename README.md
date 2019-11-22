@@ -8,9 +8,27 @@ This guide is supposed to be made up of copy and paste template for CLI's. If yo
 
 ## Directory
 
+### FAQ -  Frequently Asked Commands (FAC)
 
-### Notes
+#### Check your OS Version
 
+##### Linux
 
+> cat /etc/os-release
 
+Sample output:
 
+```bash
+NAME="Ubuntu"
+VERSION="19.10 (Eoan Ermine)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 19.10"
+VERSION_ID="19.10"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=eoan
+UBUNTU_CODENAME=eoan
+```
