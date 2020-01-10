@@ -106,3 +106,29 @@ Eth4/30       1       eth  trunk    up      none                        10G(D) -
 Eth4/31       1       eth  trunk    up      none                        10G(D) --
 <... output omitted ...>
 ```
+
+## Configure vPC Peer-Keepalives
+
+Configure a Layer 3 interface between your two Cisco Nexus 7000 VDCs that will be used for the vPC peer-keepalive. Both Cisco Nexus 7000 VDCs should use the interface with the peer-keepalive description from the previous step. The interfaces should be members of the VRF VPC-KEEPALIVE. The IP addresses are 209.165.200.225/24 (N7K-A) and 209.165.200.226/24 (N7K-B).
+
+```
+N7K-A-Pod8#configure terminal
+N7K-A-Pod8(config)#  vrf context VPC-KEEPALIVE
+N7K-A-Pod8(config-vrf)# interface ethernet 4/26
+N7K-A-Pod8(config-if)# no switchport
+N7K-A-Pod8(config-if)# vrf member VPC-KEEPALIVE
+Warning: Deleted all L3 config on interface Ethernet4/26
+N7K-A-Pod8(config-if)# ip addr 209.165.200.225/24
+```
+
+```
+N7K-B-Pod8#configure terminal
+N7K-B-Pod8(config)#  vrf context VPC-KEEPALIVE
+N7K-B-Pod8(config-vrf)# interface ethernet 4/26
+N7K-B-Pod8(config-if)# no switchport
+N7K-B-Pod8(config-if)# vrf member VPC-KEEPALIVE
+Warning: Deleted all L3 config on interface Ethernet4/26
+N7K-B-Pod8(config-if)# ip addr 209.165.200.226/24
+```
+
+The command __no switchport__ converts the interface from a Layer 2 interface to a Layer 3 interface.
