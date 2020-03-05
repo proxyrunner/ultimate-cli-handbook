@@ -6,11 +6,15 @@
 reload in 10                         
 ```
 
+## 
+
 ```
 Reload scheduled in 10 minutes by console
 Reload reason: Reload Command
 Proceed with reload? [confirm]
 ```
+
+## 
 
 ```
 R2#show reload  
@@ -19,6 +23,8 @@ R2#show reload
 Reload scheduled in 9 minutes by console
 Reload reason: Reload Command
 ```
+
+## 
 
 ```
 R2#reload cancel
