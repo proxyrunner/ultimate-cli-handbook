@@ -8,10 +8,7 @@ This repository mostly consists of directions to immediate configurations. __The
 
 * Parameters you must enter are in italics, for examples:
 
-```markdown
-neighbor _ip-address_ remote-as _autonomous-system-number_
-neighbor _ip-address_ description _EXTERNAL NEIGHBOR [IP] - [ASN NAME] - [ASN #]_
-```
+> neighbor _ip-address_ remote-as _autonomous-system-number_
 
 ## Networking
 
