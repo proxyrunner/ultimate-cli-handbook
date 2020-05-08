@@ -1,5 +1,18 @@
 # Administrative Commands
 
+## Privilege and User Modes
+
+### Bypass user-exec mode to privilege mode
+
+```
+conf t
+# Select the access type
+# line con 0
+# line vty 0 15
+privilege level 15                      
+```
+
+
 ## Timed Reload
 
 ```
