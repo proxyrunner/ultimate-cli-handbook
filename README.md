@@ -2,20 +2,17 @@
 
 The ultimate reference for copy and paste commands. I've been wanting to do this for a while, mostly to make life easier. There is currently no formality, so I'll be architecting that while simulatenously updating this repository.
 
+This repository mostly consists of directions to immediate configurations. __Theory will not be discussed.__ I will eventually be offering __paid__ sources for networking and programming __theory__ courses. Anyway, lets get down to business!
+
 ## Networking
 
-* [Cisco](https://github.com/gil-ryan/ultimate-cli-handbook/tree/master/networking/Cisco)
-    + [IOS](https://github.com/gil-ryan/ultimate-cli-handbook/tree/master/networking/Cisco/IOS)  
-        - [Layer 2](https://github.com/gil-ryan/ultimate-cli-handbook/blob/master/networking/Cisco/IOS/L2.md)
-        - [Layer 3](https://github.com/gil-ryan/ultimate-cli-handbook/blob/master/networking/Cisco/IOS/L3.md)
-            + [EIGRP]()
-    + [ASA]()
-    + [NX-OS](https://github.com/gil-ryan/ultimate-cli-handbook/tree/master/networking/Cisco/NXOS)
-* Palo Alto
+## Cisco
 
-This guide is supposed to be made up of copy and paste template for CLI's. If you'd like to be a contributer to this, please pull & merge or drop me a line.
+### Routing 
 
-## Directory
+* [Border Gateway Protocol(BGP)]()
 
-### FAQ -  Frequently Asked Commands (FAC)
 
+## Palo Alto
+
+Coming soon!
