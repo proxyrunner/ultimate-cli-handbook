@@ -6,9 +6,13 @@ This repository mostly consists of directions to immediate configurations. __The
 
 ## Getting started
 
-* Parameters you must enter are in italics, for examples:
+* Parameters are in italics, for examples:
 
 > neighbor _ip-address_ remote-as _autonomous-system-number_
+
+* User input parameters are generally in capital letters, many timess these parameters are optional. Example:
+
+> neighbor _ip-address_ description __EXTERNAL NEIGHBOR [IP] - [ASN NAME] - [ASN #]_
 
 ## Networking
 
