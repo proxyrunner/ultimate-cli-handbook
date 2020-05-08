@@ -4,6 +4,15 @@ The ultimate reference for copy and paste commands. I've been wanting to do this
 
 This repository mostly consists of directions to immediate configurations. __Theory will not be discussed.__ I will eventually be offering __paid__ sources for networking and programming __theory__ courses. Anyway, lets get down to business!
 
+## Getting started
+
+* Parameters you must enter are in italics, for examples:
+
+```markdown
+neighbor _ip-address_ remote-as _autonomous-system-number_
+neighbor _ip-address_ description _EXTERNAL NEIGHBOR [IP] - [ASN NAME] - [ASN #]_
+```
+
 ## Networking
 
 ## Cisco
