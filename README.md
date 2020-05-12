@@ -21,6 +21,7 @@ This repository mostly consists of directions to immediate configurations. __The
 ### Routing 
 
 * [Border Gateway Protocol (BGP)](https://github.com/gil-ryan/grs-networking-public/blob/master/ROUTING-SWITCHING/BGP/BGP.md#bgp)
+* [Enhanced Interior Gateway Routing Protocol (EIGRP)](https://github.com/gil-ryan/grs-networking-public/blob/master/ROUTING-SWITCHING/EIGRP/EIGRP.md#named-eigrp-quick-config)
 
 ## Palo Alto
 
