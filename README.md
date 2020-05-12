@@ -2,7 +2,7 @@
 
 The ultimate reference for copy and paste commands. I've been wanting to do this for a while, mostly to make life easier. There is currently no formality, so I'll be architecting that while simulatenously updating this repository.
 
-This repository mostly consists of directions to immediate configurations. __Theory will not be discussed.__ Anyway, lets get down to business!
+This repository mostly consists of directions to immediate configurations. __Theory will not be discussed!__ For more information on this, please review the [FAQ](https://github.com/gil-ryan/ultimate-cli-handbook#learn-more-faq) below. Anyway, lets get down to business!
 
 ## Getting started
 
