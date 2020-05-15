@@ -12,7 +12,7 @@
 
 ### footnote
 
-Here's a sentence with a footnote. [^1]
+Here's a sentence with a footnote.[^1]
 
 [^1]: This is the footnote. 
 
@@ -23,7 +23,7 @@ Here's a sentence with a footnote. [^1]
 ### Defintion List
 
 term
-:   definition
+: definition
 
 ### Task list
 
