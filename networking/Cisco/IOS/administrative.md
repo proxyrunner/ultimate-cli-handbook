@@ -2,6 +2,10 @@
 
 ## Privilege and User Modes
 
+## Turn on SCP
+
+> ip scp server enable
+
 ### Bypass user-exec mode to privilege mode
 
 ```
@@ -9,7 +13,7 @@ conf t
 # Select the access type
 # line con 0
 # line vty 0 15
-privilege level 15                      
+privilege level 15 
 ```
 
 
