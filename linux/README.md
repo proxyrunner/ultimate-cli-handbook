@@ -26,3 +26,23 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 VERSION_CODENAME=eoan
 UBUNTU_CODENAME=eoan
 ```
+
+###
+
+## Quick Linux Terminal Commands
+
+### History
+
+```bash
+history | grep PYTHON
+```
+
+### Utilize SCP for Remote File Transfer
+
+```
+burt@burt NETMIKO % scp file.txt grs@192.168.1.150:/flash.txt
+```
+
+```
+burt@burt NETMIKO % scp file.txt grs@192.168.1.150:flash/flash.txt
+```
