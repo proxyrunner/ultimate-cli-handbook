@@ -46,3 +46,11 @@ burt@burt NETMIKO % scp file.txt grs@192.168.1.150:/flash.txt
 ```
 burt@burt NETMIKO % scp file.txt grs@192.168.1.150:flash/flash.txt
 ```
+
+
+## Commands
+
+### ln command
+
+This command creates symbollic links
+
